@@ -3,10 +3,10 @@ const cheerio = require('cheerio');
 
 class YearSelect {
   constructor(body) {
-    this.setJsonUrls(body);
+    this.setUrls(body);
   }
 
-  setJsonUrls(body) {
+  setUrls(body) {
     const $ = cheerio.load(body);
     this.urls = $(utils.yearsSelector).map((i, option) => {
       return utils.baseUrl + $(option).val();
