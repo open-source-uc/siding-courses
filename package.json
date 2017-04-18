@@ -1,0 +1,22 @@
+{
+  "name": "siding-courses",
+  "version": "1.0.0",
+  "description": "Scrap courses from SIDING.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "siding",
+    "scraping",
+    "courses"
+  ],
+  "author": "Sebastián Salata Ruiz-Tagle <SA.SalataRT@GMail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "iconv-lite": "^0.4.15",
+    "jsonfile": "^2.4.0",
+    "siding-navigator": "^1.1.2"
+  }
+}
